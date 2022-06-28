@@ -1,0 +1,26 @@
+.Homepage{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    height: 50vh;
+    justify-content: center;
+    border-radius: 20px;
+    align-items: center;
+    box-shadow: 0 0 15px 5px grey;
+    background: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+  }
+
+  .Homepage > .Button{
+    background: rgb(67, 67, 247);
+    border: 1px solid rgb(25, 25, 243) ;
+    color:azure;
+    font-size: 1.25 rem;
+    padding: 2px;
+    margin: 1 rem ;
+    border-radius: 8px;
+    box-shadow: 0 0 1px 1px rgb(54, 54, 54);
+    outline:none;
+    cursor: pointer;
+  }

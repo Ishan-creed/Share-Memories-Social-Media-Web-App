@@ -1,0 +1,34 @@
+.login{
+    width: 400px;
+    background: white;
+    border: 1px solid whitesmoke;
+    box-shadow: 0 2px 4px rgb(0 0 / 10%), 0 8px 16px rgb(0 0 0 /10%);
+    border-radius: 8px;
+    padding: 1rem;
+    align-items: center;
+    text-align: center;
+}
+
+.login > .input{
+    border-radius: 8px;
+    border: 2px solid white;
+    outline: none;
+    color:rgb(23, 19, 19);
+    margin: 0.5rem 0;
+    padding: 0.5rem 0.75rem;
+    width: 92%;
+    font-size: 1rem;
+}
+
+.login > .Button{
+    background: rgb(67, 67, 247);
+    border: 1px solid rgb(25, 25, 243) ;
+    color:azure;
+    font-size: 1.25 rem;
+    padding: 2px;
+    margin: 1 rem ;
+    border-radius: 8px;
+    box-shadow: 0 0 1px 1px rgb(54, 54, 54);
+    outline:none;
+    cursor: pointer;
+}
